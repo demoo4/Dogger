@@ -37,9 +37,6 @@ section {
   }
 }
 
-#welcome {
-  padding: 40px 0;
-}
 #welcome .textbox {
   padding: 80px;
 }
@@ -60,6 +57,7 @@ section {
 }
 #welcome .textbox h6 {
   font-size: 18px;
+  color: #868686;
 }
 #welcome .textbox .btn {
   padding: 10px 30px;
@@ -67,8 +65,16 @@ section {
   background-color: #a7b59f;
   color: white;
 }
+#welcome .imgbox {
+  border-radius: 20px;
+}
 #welcome .wid {
   width: 580px;
+}
+@media screen and (max-width: 992px) {
+  #welcome .textbox {
+    padding: 0px 80px 80px;
+  }
 }
 
 #aboutus {
