@@ -77,9 +77,6 @@ section {
   }
 }
 
-#aboutus {
-  padding: 40px 0;
-}
 #aboutus .textbox {
   padding: 0 100px;
 }
@@ -114,6 +111,23 @@ section {
 }
 #aboutus .imgbox {
   width: 450px;
+  border-radius: 20px;
+}
+@media screen and (max-width: 992px) {
+  #aboutus .textbox {
+    padding: 0 125px;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #aboutus .textbox {
+    padding: 0 35px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #aboutus .textbox {
+    padding: 0px;
+  }
 }
 
 #trainers {
