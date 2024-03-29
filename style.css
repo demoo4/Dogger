@@ -3,13 +3,17 @@ body {
   font-weight: 500;
 }
 
+.imgbox {
+  overflow: hidden;
+}
 .imgbox img {
   width: 100%;
 }
 
-#carefor {
+section {
   padding: 40px 0;
 }
+
 #carefor .textbox h1 {
   font-weight: 700;
   font-size: 60px;
@@ -21,6 +25,16 @@ body {
 }
 #carefor .imgbox {
   width: 500px;
+  border-radius: 20px;
+}
+@media screen and (max-width: 768px) {
+  #carefor .textbox {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  #carefor .textbox h1 {
+    font-size: 52px;
+  }
 }
 
 #welcome {
