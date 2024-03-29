@@ -143,8 +143,14 @@ section {
   color: #a8a8a8;
   margin: 20px 0;
 }
+#trainers h3 {
+  padding: 0 238px;
+}
 #trainers .box {
   margin: 0 5px;
+}
+#trainers .box .imgbox {
+  border-radius: 20px;
 }
 #trainers .box .textbox {
   padding: 15px;
@@ -169,8 +175,28 @@ section {
 #trainers .box ul li .icon {
   margin: -7px;
 }
-#trainers .wid {
-  width: 580px;
+@media screen and (max-width: 992px) {
+  #trainers h3 {
+    padding: 0;
+  }
+  #trainers .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #trainers .box .imgbox {
+    width: 300px;
+    height: 360px;
+    margin-top: 30px;
+  }
+  #trainers .box .textbox {
+    text-align: center;
+    padding: 15px 100px;
+  }
+  #trainers .box .textbox ul {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 #pricing {
