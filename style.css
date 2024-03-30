@@ -385,9 +385,6 @@ section {
   }
 }
 
-#services {
-  padding: 40px 0;
-}
 #services .wid {
   width: 580px;
 }
@@ -413,4 +410,12 @@ section {
 }
 #services .textbox h3 {
   margin: 30px 0 0;
+}
+@media screen and (max-width: 992px) {
+  #services .textbox {
+    padding-right: 0;
+  }
+  #services .textbox .icon {
+    font-size: 65px;
+  }
 }/*# sourceMappingURL=style.css.map */
