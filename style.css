@@ -315,6 +315,25 @@ section {
 #questions .bigicon i {
   font-size: 30px;
 }
+#questions .imgbox {
+  border-radius: 20px;
+}
+@media screen and (max-width: 992px) {
+  #questions .textbox {
+    padding: 0 100px;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #questions .textbox {
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #questions .textbox {
+    padding: 0px;
+  }
+}
 
 #blog {
   padding: 40px 0;
