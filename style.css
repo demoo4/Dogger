@@ -335,9 +335,6 @@ section {
   }
 }
 
-#blog {
-  padding: 40px 0;
-}
 #blog h1 {
   font-weight: 700;
   font-size: 35px;
@@ -348,6 +345,10 @@ section {
 }
 #blog .box {
   display: flex;
+}
+#blog .box .imgbox {
+  border-radius: 20px;
+  height: 96px;
 }
 #blog .box .textbox {
   margin: 0 0 0 20px;
@@ -369,6 +370,19 @@ section {
 }
 #blog .wid {
   width: 580px;
+}
+@media screen and (max-width: 992px) {
+  #blog .box {
+    flex-direction: column;
+  }
+  #blog .box .imgbox {
+    height: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  #blog .box1 {
+    margin-top: 50px;
+  }
 }
 
 #services {
