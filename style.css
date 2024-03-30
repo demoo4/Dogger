@@ -130,9 +130,6 @@ section {
   }
 }
 
-#trainers {
-  padding: 40px 0;
-}
 #trainers h1 {
   font-weight: 700;
   font-size: 38px;
@@ -196,6 +193,15 @@ section {
   #trainers .box .textbox ul {
     display: flex;
     justify-content: center;
+  }
+}
+@media screen and (max-width: 476px) {
+  #trainers .box .imgbox {
+    width: auto;
+    height: auto;
+  }
+  #trainers .box .textbox {
+    padding: 0;
   }
 }
 
