@@ -37,43 +37,58 @@ section {
   }
 }
 
-#welcome .textbox {
-  padding: 80px;
-}
-#welcome .textbox h1 {
+#welcome h1 {
   font-weight: 700;
   font-size: 30px;
 }
-#welcome .textbox h3 {
+#welcome h3 {
   color: #868686;
   margin: 20px 0 40px;
   font-size: 20px;
 }
-#welcome .textbox h2, #welcome .textbox h6 {
+#welcome .box {
+  display: flex;
+  align-items: center;
+}
+#welcome .box .textbox {
+  padding: 80px;
+  text-align: end;
+}
+#welcome .box h2, #welcome .box h6 {
   margin: 15px 0;
 }
-#welcome .textbox h2 {
+#welcome .box h2 {
   font-size: 33px;
 }
-#welcome .textbox h6 {
+#welcome .box h6 {
   font-size: 18px;
   color: #868686;
 }
-#welcome .textbox .btn {
+#welcome .box .btn {
   padding: 10px 30px;
   border-radius: 20px;
   background-color: #a7b59f;
   color: white;
 }
-#welcome .imgbox {
+#welcome .box .imgbox {
   border-radius: 20px;
+}
+#welcome .right .textbox {
+  text-align: start;
 }
 #welcome .wid {
   width: 580px;
 }
 @media screen and (max-width: 992px) {
-  #welcome .textbox {
-    padding: 0px 80px 80px;
+  #welcome .box {
+    flex-direction: column;
+  }
+  #welcome .box .textbox {
+    padding: 10px 60px 50px 0;
+    text-align: start;
+  }
+  #welcome .right {
+    flex-direction: column-reverse;
   }
 }
 
